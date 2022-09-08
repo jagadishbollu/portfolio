@@ -144,4 +144,54 @@
      #l:hover{ transform: scale(1.2);
         border: solid black;
         background-color:white;}
+@media (max-width:786px)
+    {
+.social-icons{position: absolute;
+bottom:200px;
+right:100px;}
+nav ul{
     
+    flex: 1;
+    text-align:right;
+    padding-right:10px;
+}    
+nav ul li {
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+nav ul li {
+    color:#fff;
+    text-decoration: none;
+    position:absolute;
+    left: 200px;
+    border-top-width: 100%;
+
+}
+.text-box h1{
+    
+    font-size: 80px;
+    line-height: 60px;
+    margin-left:20px;
+    color: transparent;
+    -webkit-text-stroke:1px #fff;
+    background-image:url(stp1.jpg) ;
+    -webkit-background-clip:text;
+    background-position:200px 300px;
+    animation:nag 20s linear infinite;
+    }
+    .text-box h3{
+    
+        font-size: 30px;
+        font-weight:200;
+    }
+    .container{
+        width:1500px;
+        height:800px;
+        background-image:linear-gradient(rgba(0,0,0,0.3),transparent),url(pic2.jpg);
+        background-size: auto;
+        background-position:top;
+        padding: 10px;
+        position:absolute;}
+}    
